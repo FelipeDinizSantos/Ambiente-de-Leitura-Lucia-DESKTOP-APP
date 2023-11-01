@@ -89,6 +89,7 @@ namespace Projeto_da_Biblioteca
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Telauser";
             this.Text = "Usuário";
+            this.Load += new System.EventHandler(this.Telauser_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

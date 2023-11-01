@@ -21,6 +21,13 @@ namespace Projeto_da_Biblioteca
         {
             Autenticacao Autenticacao = new Autenticacao();
             Autenticacao.Show();
+
+            
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

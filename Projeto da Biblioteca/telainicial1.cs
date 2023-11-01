@@ -22,5 +22,19 @@ namespace Projeto_da_Biblioteca
             Telauser telauser = new Telauser();
             telauser.Show();
         }
+
+        private void telainicial1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+            Livros Telalivros = new Livros();
+            Telalivros.Show();
+
+            this.Close();
+        }
     }
 }

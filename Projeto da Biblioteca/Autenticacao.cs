@@ -37,6 +37,8 @@ namespace Projeto_da_Biblioteca
                     MessageBox.Show("Bem Vindo " + txtUsuario.Text + "!", "Sucesso");
                     telainicial1 Telainicial1 = new telainicial1();
                     Telainicial1.Show();
+
+                    this.Close();
                 }
 
                 else
