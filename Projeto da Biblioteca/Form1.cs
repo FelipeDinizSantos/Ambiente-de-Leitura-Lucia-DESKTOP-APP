@@ -22,6 +22,8 @@ namespace Projeto_da_Biblioteca
             Autenticacao Autenticacao = new Autenticacao();
             Autenticacao.Show();
 
+            this.Close();
+
             
         }
 
@@ -36,6 +38,17 @@ namespace Projeto_da_Biblioteca
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+          
+        }
+
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }

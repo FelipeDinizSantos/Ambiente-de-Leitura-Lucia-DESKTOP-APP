@@ -51,5 +51,10 @@ namespace Projeto_da_Biblioteca
                 }
             }
         }
+
+        private void txtUsuario_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -22,7 +22,7 @@ namespace Projeto_da_Biblioteca
             Telauser telauser = new Telauser();
             telauser.Show();
 
-            this.Close();
+           
         }
 
         private void telainicial1_Load(object sender, EventArgs e)
