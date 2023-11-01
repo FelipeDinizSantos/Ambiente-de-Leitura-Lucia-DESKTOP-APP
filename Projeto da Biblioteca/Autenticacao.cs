@@ -16,5 +16,36 @@ namespace Projeto_da_Biblioteca
         {
             InitializeComponent();
         }
+
+        private void Autenticacao_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+            if (txtUsuario.Text == "" && txtSenha.Text == "") 
+            {
+                MessageBox.Show("Digite o Usuário !", " Erro");
+
+            }
+            else
+            {
+                if (txtUsuario.Text == "Val" && txtSenha.Text == "val2023")
+                {
+                    MessageBox.Show("Bem Vindo " + txtUsuario.Text + "!", "Sucesso");
+                    telainicial1 Telainicial1 = new telainicial1();
+                    Telainicial1.Show();
+                }
+
+                else
+                {
+                    MessageBox.Show("Usuário ou Senha Inválidos !");
+                }
+            }
+
+
+        }
     }
 }
