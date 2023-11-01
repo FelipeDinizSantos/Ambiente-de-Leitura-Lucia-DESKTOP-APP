@@ -50,6 +50,7 @@ namespace Projeto_da_Biblioteca
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // button1
             // 
@@ -66,7 +67,7 @@ namespace Projeto_da_Biblioteca
             this.panel1.BackColor = System.Drawing.Color.White;
             this.panel1.Controls.Add(this.pictureBox2);
             this.panel1.Controls.Add(this.button1);
-            this.panel1.Location = new System.Drawing.Point(170, 51);
+            this.panel1.Location = new System.Drawing.Point(173, 27);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(438, 359);
             this.panel1.TabIndex = 2;
@@ -74,12 +75,13 @@ namespace Projeto_da_Biblioteca
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(116, 71);
+            this.pictureBox2.Location = new System.Drawing.Point(121, 56);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(208, 102);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 2;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // Form1
             // 

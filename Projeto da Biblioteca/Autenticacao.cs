@@ -25,7 +25,11 @@ namespace Projeto_da_Biblioteca
         private void button1_Click(object sender, EventArgs e)
         {
 
-            if (txtUsuario.Text == "" && txtSenha.Text == "") 
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            if (txtUsuario.Text == "" && txtSenha.Text == "")
             {
                 MessageBox.Show("Digite o Usuário !", " Erro");
 
@@ -46,8 +50,6 @@ namespace Projeto_da_Biblioteca
                     MessageBox.Show("Usuário ou Senha Inválidos !");
                 }
             }
-
-
         }
     }
 }
