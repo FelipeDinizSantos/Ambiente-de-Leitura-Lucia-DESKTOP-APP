@@ -38,5 +38,19 @@ namespace Projeto_da_Biblioteca
 
             this.Close();
         }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            Telauser telauser = new Telauser();
+            telauser.Show();
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            Livros Telalivros = new Livros();
+            Telalivros.Show();
+
+            this.Close();
+        }
     }
 }
