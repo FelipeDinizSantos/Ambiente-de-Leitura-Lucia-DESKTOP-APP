@@ -26,7 +26,7 @@ namespace Projeto_da_Biblioteca
         private void CarregarDadosBanco()
         {
 
-            string strconn = "server=localhost;database=aula1209;uid=root;pwd=";
+            string strconn = "server=localhost;database=db_bibliotea;uid=root;pwd=";
             MySqlConnection conexaoMYSQL = null ;
             
             MySqlDataAdapter mda = null;
@@ -41,7 +41,7 @@ namespace Projeto_da_Biblioteca
                     {
                         cmd.Parameters.AddWithValue("@nome", textBoxPesquisa.Text + "%");
                     }
-                    string msql = "select * from tb_aluno ";
+                    string msql = "select * from tb_livro";
                     if (textBoxPesquisa.Text != string.Empty)
                     {
                         msql += " where nome like @nome ";
@@ -71,6 +71,18 @@ namespace Projeto_da_Biblioteca
         private void button1_Click(object sender, EventArgs e)
         {
             CarregarDadosBanco();
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            Telauser telauser = new Telauser();
+            telauser.Show();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            Autenticacao Autenticacao = new Autenticacao();
+            Autenticacao.Show();
         }
     }
 }
