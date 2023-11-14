@@ -52,5 +52,10 @@ namespace Projeto_da_Biblioteca
         {
 
         }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

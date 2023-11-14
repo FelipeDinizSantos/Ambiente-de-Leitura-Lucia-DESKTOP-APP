@@ -52,5 +52,10 @@ namespace Projeto_da_Biblioteca
 
             this.Close();
         }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
