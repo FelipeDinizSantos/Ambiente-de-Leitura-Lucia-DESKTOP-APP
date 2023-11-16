@@ -105,6 +105,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddNewBook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddNewBook.Designer.cs">
+      <DependentUpon>AddNewBook.cs</DependentUpon>
+    </Compile>
     <Compile Include="Autenticacao.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -143,6 +149,9 @@
     <Compile Include="Telauser.Designer.cs">
       <DependentUpon>Telauser.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AddNewBook.resx">
+      <DependentUpon>AddNewBook.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Autenticacao.resx">
       <DependentUpon>Autenticacao.cs</DependentUpon>
     </EmbeddedResource>

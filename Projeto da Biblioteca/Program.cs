@@ -16,7 +16,7 @@ namespace Projeto_da_Biblioteca
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new splash());
+            Application.Run(new AddNewBook());
         }
     }
 }
