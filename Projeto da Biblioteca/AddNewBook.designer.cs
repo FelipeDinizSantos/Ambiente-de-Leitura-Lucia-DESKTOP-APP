@@ -338,6 +338,7 @@ namespace Projeto_da_Biblioteca
             this.Controls.Add(this.label1);
             this.Name = "AddNewBook";
             this.Text = "Form2";
+            this.Load += new System.EventHandler(this.AddNewBook_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

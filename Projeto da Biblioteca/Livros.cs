@@ -81,8 +81,8 @@ namespace Projeto_da_Biblioteca
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            Autenticacao Autenticacao = new Autenticacao();
-            Autenticacao.Show();
+         telainicial1 telainicial = new telainicial1();
+            telainicial.Show();
         }
     }
 }

@@ -270,5 +270,10 @@ namespace Projeto_da_Biblioteca
                 ageRangeBox.Text = String.Empty;
             }
         }
+
+        private void AddNewBook_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
