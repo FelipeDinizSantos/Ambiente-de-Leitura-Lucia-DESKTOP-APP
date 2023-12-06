@@ -84,5 +84,16 @@ namespace Projeto_da_Biblioteca
          telainicial1 telainicial = new telainicial1();
             telainicial.Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            AddNewBook addNewBook = new AddNewBook();
+            addNewBook.Show();
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

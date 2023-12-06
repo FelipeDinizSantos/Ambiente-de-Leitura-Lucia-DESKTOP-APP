@@ -36,7 +36,7 @@ namespace Projeto_da_Biblioteca
             Livros Telalivros = new Livros();
             Telalivros.Show();
 
-            this.Close();
+            
         }
 
         private void pictureBox4_Click(object sender, EventArgs e)
@@ -47,15 +47,21 @@ namespace Projeto_da_Biblioteca
 
         private void pictureBox5_Click(object sender, EventArgs e)
         {
-            Livros Telalivros = new Livros();
-            Telalivros.Show();
+            Livros Livros = new Livros();
+            Livros.Show();
 
-            this.Close();
+           
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+            AddUser addUser = new AddUser();
+            addUser.Show();
         }
     }
 }
