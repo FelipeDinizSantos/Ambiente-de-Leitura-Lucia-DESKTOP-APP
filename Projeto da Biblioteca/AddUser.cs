@@ -33,5 +33,17 @@ namespace Projeto_da_Biblioteca
         {
 
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            telainicial1 Telainicial1 = new telainicial1();
+            Telainicial1.Show();
+            this.Close();
+        }
     }
 }

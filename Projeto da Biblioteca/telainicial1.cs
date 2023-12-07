@@ -49,8 +49,9 @@ namespace Projeto_da_Biblioteca
         {
             Livros Livros = new Livros();
             Livros.Show();
-
            
+            this.Close();
+
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
@@ -62,6 +63,8 @@ namespace Projeto_da_Biblioteca
         {
             AddUser addUser = new AddUser();
             addUser.Show();
+
+            this.Close();
         }
     }
 }
