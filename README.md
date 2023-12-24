@@ -1,4 +1,4 @@
-# Hub de Sistema de Gerenciamento de Bibliotecas
+# Sistema Ambiente de Leitura Lucia
 
 O Sistema Ambiente de Leitura Lucia é uma iniciativa destinada a solucionar os desafios enfrentados pela biblioteca da Escola Lúcia de Castro Bueno. Atualmente, o sistema de gerenciamento da biblioteca é manual, resultando em dificuldades na gestão eficiente do acervo, controle de empréstimos, e cobrança de devoluções. A proposta visa modernizar e simplificar esses processos, proporcionando uma solução tecnológica eficaz.
 
